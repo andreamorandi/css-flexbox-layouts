@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flexbox-container{
+    width: 100%;
+    display: flex;
+}
+
+.sidebar{
+    width: 30%;
+    /* height: 400px; */
+    background-color: blue;
+}
+
+main{
+    width: 70%;
+    /* height: 400px;        se c'è contenuto non serve: c'è align items stretch settato di base*/
+    background-color: pink;
+}
